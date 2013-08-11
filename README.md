@@ -1,2 +1,2 @@
-elance-bug
+Elance Bug (explanation and PoC)
 ==========

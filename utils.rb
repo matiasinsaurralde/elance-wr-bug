@@ -13,7 +13,7 @@ module Elance
 		token = Nokogiri::HTML( login_page ).css('#token').attr('value').value()
 
 		# try authentication
-		response =  RestClient.post( 'https://www.elance.com/php/reg/main/signInAHR.php?t=1376232800475',
+		response =  RestClient.post( 'https://www.elance.com/php/reg/main/signInAHR.php',
 				 { :token => token,
 				   :mode => 'signin',
 				   :crypted => '',

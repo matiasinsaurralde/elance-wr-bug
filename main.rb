@@ -5,4 +5,4 @@ require './utils'
 
 include Elance
 
-check_email_existance 'some@address.com'
+email_exists? 'some@address.com'
